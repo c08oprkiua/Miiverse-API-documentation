@@ -16,7 +16,7 @@ These are the queries usable in the community endpoints.
 | by                 | string    | friends:<br/>                                                                                                                            |                                                                                                       |
 | type               | string    | favorite: get the user's favorite communities<br/>official: get official communities<br/>my:Retrieve the user's community, if applicable | Defines a filter of what kind of community will be returned. See the option descriptions for details. |
 
-Example usage: `https://amiiverserevival.com/v1/communities?limit=50&with_icon=false&type=official` would return 50 communities, *without* icon data, and all the communities returned will be official ones.
+Example usage: `https://amiiverserevival.com/v1/communities?limit=50&with_icon=0&type=official` would return 50 communities, *without* icon data, and all the communities returned will be official ones.
 
 # v1/communities
 
