@@ -36,7 +36,7 @@ Returns a community, where `id` is the community ID of a community
 
 ## GET
 
-Returns the posts in a community, where `is` is the community ID of a community.
+Returns the posts in a community, where `id` is the community ID of a community.
 
 # v1/communities/favorite
 
